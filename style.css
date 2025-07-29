@@ -1,0 +1,1340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background-image: url(Rectangle\ 88.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    color: white;
+    height: 370px;   
+}
+.logo_harmbugger{
+    display: none;
+}
+nav{
+    position: fixed;
+    display: flex;
+    padding-top: 30px;
+    padding-left:10px ;
+    padding-right:20px;
+    width: 100%;
+    padding-bottom: 10px;
+
+}
+nav .nav-list ul{
+    display: flex;
+    padding: 10px;
+    width:40px;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.nav-list .selected{
+    display: flex;
+    flex-direction: column;
+    
+}
+.selected div{
+    width:100%;
+    height: 2%;
+    background-color: rgb(0, 0, 0);
+    color: #000;
+    border: black solid 1px;
+
+}
+
+nav .search-cart{
+   position: absolute;
+   right: 15px;
+}
+nav .nav-list li{
+    list-style: none;
+}
+nav .nav-list li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.shop_nav, .blog_nav{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    z-index: 1000;
+  
+}
+nav .navlist_black ul{
+    
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    position: fixed;
+    gap: 20px;  
+    text-decoration: none;
+}
+
+nav .navlist_black ul li {
+    list-style: none;
+    
+    
+}
+nav .navlist_black ul li  a{
+    font-weight: bolder;
+}
+
+
+.navlist_black li a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ .line_shop_nav{
+    width: 35px;
+    position: relative;
+    left: 165px;
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+    border: none;
+ }
+  .other_section{
+  padding-top:20px ;
+ }
+
+ .shop {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  
+ }
+nav .search-cart i{
+    padding-left: 25px;
+}
+.section1 .start-shopping{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    
+    
+}
+.section1 .start-shopping h1{
+    width: 400px;
+    font-size: 50px;
+     margin: 0px auto;
+}
+.section1 .start-shopping .btn_section1{
+    background-color: transparent;
+    border: white 1px solid;
+    margin: 10px 100px;
+    width: 200px;
+    height: 55px;
+    
+}
+.section1 .start-shopping button a{
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    padding: 20px 33px;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:1px  30px;
+
+}
+.section2 .head-section2{
+    font-size: 40px;
+    margin-bottom:5px;
+    padding-left: 30px;
+    padding-top: 10px;
+ 
+}
+.frame1{
+  width: 50%;
+  padding:20px;
+}
+
+ .pictures img{
+  width: 100%;
+  
+}
+
+.describing_pic{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+}
+.describing_pic span{
+    font-size: 12px;
+}
+.describing_picture1{
+    display: flex;
+    justify-content: space-between;
+}
+.section2 .describing_picture1 p{
+    font-weight: bold;
+}
+.frame1 .buy_now_button{
+    display: flex;
+    gap: 10px;
+    margin:  10px 0px ;
+
+}
+
+.frame1 .buy_now_button a{
+    padding: 18px 17px;
+    text-decoration: none;
+}
+
+.frame1 .btn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+   
+    height: 50px;
+
+}
+.frame1 .btn a{
+    color: white;
+}
+.frame1 .btn-2{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    width: 100px;
+    height: 50px;
+}
+.frame1 .btn-2 a{
+    color: black;
+}
+.section3 .Latest_arrivals {
+    font-size: 40px;
+    margin-bottom: 5px;
+    padding-left: 50px;
+}
+.background{
+    background-image: url(Rectangle\ 56.svg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 260px;  
+    padding: 35px 10%;
+    margin-bottom: 30px;
+}
+
+.background .txt1, .background3 .txt1 , .background2 .txt1{
+    font-size: 31px;
+    width: 250px;
+    color: white;
+    margin-bottom: 10px;
+}
+.background .txt2, .background2 .txt2{
+    color: white;
+    width:180px ;
+    margin-bottom: 10px;
+}
+
+.background3 .txt2{
+    color: white;
+    width:150px ;
+    margin-bottom: 10px;
+}
+.background .btn, .background3 .btn , .background2 .btn{
+   background-color: transparent;
+   width: 200px;
+   height: 50px;
+   border: white 2px solid;
+}
+.background button a, .background3 button a, .background2 button a{
+    font-size: 30px;
+    padding:  23px 15px;
+    color: white;
+    text-decoration: none;
+}
+.background2{
+    background-image: url(image\ 35.svg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;  
+    margin-bottom: 30px;
+    
+    }
+.text_float_right{
+    margin-top: 40px;
+    height: 100%;
+    float: right;
+    
+}
+
+.background3{
+    background-image:url(Rectangle\ 87.svg) ;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 260px;  
+    padding: 50px 10%;
+}
+.about-privacy-shops{
+    display: flex;
+    gap: 10%;
+}
+.about, .privacy, .shops{
+    padding: 20px;
+}
+.heading_name {
+    font-size: larger;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.about li,.privacy li,.shops li{
+    list-style: none;
+    padding-bottom: 8px;
+}
+.about li a,.privacy li a,.shops li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+
+}
+.about li:hover,.privacy li:hover,.shops li:hover{
+    opacity: 0.7;
+    color: lightslategray;
+    transition: 3ms ease-in-out;
+}
+.footer_line{
+   margin: 5px 2px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    }
+footer .splash{
+    display: flex; 
+}
+footer .splash p{
+    margin-right: 15px;
+}
+footer .splash .splash-name {
+    font-size: 30px;   
+}
+footer .splash .splash-brand{
+    margin-top: 14px;
+}
+footer .logo{
+    display: flex;
+    gap: 40px;
+    margin-top: 5px;
+}
+.section1_blog{
+    background-image: url(image\ 9.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 120px;
+    color: white;
+
+}
+.section1_blog p:nth-child(1){
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+
+}
+.section1_blog p:nth-child(2){
+    width: 80%;
+    margin-bottom: 20px;
+}
+.section1_blog p:nth-child(3){
+    width: 90% ;
+    margin-bottom: 20px;
+}
+.read_full_btn{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+  
+}
+.read_full_btn a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 52px;
+}
+.section2_blog{
+    padding: 20px;
+    
+}
+.section2_blog .trending_article{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.pictures_blog{
+    display: flex;
+    gap:30px;
+    flex-wrap: nowrap;
+}
+.picture_trending_article{
+    width: 700px;
+}
+.picture_trending_article img{
+    width: 100%;
+}
+.picture_trending_article p:nth-child(2){
+    font-size: 10px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.picture_trending_article p:nth-child(3){
+    font-weight: 15px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.picture_trending_article p:nth-child(4){
+    font-weight: 10px;
+    text-align: justify;
+    font-size: 10px;
+}
+.picture_trending_article p:nth-child(4) a{
+    color: black;
+    font-weight: bold;
+}
+
+.intro_page{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 200px;
+}
+.intro_page p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.intro_page .intro_splash{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.intro_page .intro_desc_splash{
+    
+    text-align: center;
+    text-transform: capitalize;
+}
+.body_arrival{
+    background-color: whitesmoke ;
+}
+.head_new_arrival{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 20px 20px ;
+   
+}
+           
+.head_new_arrival .harmbuger_new_arrivals{
+    width: 40px;
+    height: 20px;
+    margin-top: 30px;
+}
+.head_new_arrival .harmbuger_new_arrivals:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.head_new_arrival .harmbuger_new_arrivals  .bar{
+    background-color: black;
+    width: 40px;
+    color: black;
+    height: 3px;
+    margin-bottom: 5px;
+    border-radius: 105px;
+}
+.head_new_arrival  .splash_name_new_arrival {
+    font-size: 50px;
+  
+}
+.head_new_arrival .profile_new_arrival{
+    background-color:rgb(193, 188, 188) ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.searchbar_newarrival{
+    margin: 2px 25px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 15px;  
+}
+.searchbar_newarrival i{
+    height: 100%;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 14px;
+
+}
+.searchbar_newarrival input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+    padding-left: 40px;
+    outline: none;
+}
+.section1_new_arrivals hr{
+    margin: 20px 0px;
+    color: rgb(255, 255, 255);
+    height: 2px;
+    background-color: rgb(232, 231, 231);
+    box-shadow: 4px;
+    border: none;
+}
+.section2_new_arrival ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 40px ;
+    
+}
+.section2_new_arrival li{
+    border: rgb(194, 191, 191) solid 1.5px;
+    padding: 2px 15px;
+    border-radius: 22px;
+    list-style: none;
+   
+}
+.section2_new_arrival li a{
+    color:black ;
+    text-decoration: none;
+} 
+.section3_new_arrival .new_arrival{
+    font-size: 35px;
+    margin-left:25px ;
+    margin-top: 35px;
+}
+.section3_new_arrival .pictures_new_arrivals{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+ 
+}
+.section3_new_arrival .pictures_new_arrivals .frames{
+    width: 280px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:3px 5px 8px #dfdfdf;
+    
+}
+.section3_new_arrival .pictures_new_arrivals .frames img{
+    width: 100%;
+    height: 82%;
+    padding-top: 25px;
+}
+.section3_new_arrival .pictures_new_arrivals .frames p{
+margin-left: 30px;
+margin-bottom: 10px;
+}
+.section3_new_arrival .pictures_new_arrivals .frames .new_arrival_price{
+    font-weight: bolder;
+    font-size: larger;
+}
+.section4_new_arrival{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    position: fixed;
+    bottom: 0px;
+    
+}
+.section4_new_arrival i{
+    padding:  10px 25px;
+    font-size: 25px;
+}
+.bottom_new_arrival{
+    width: 20px;   
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 10px;
+    left: 27px;
+    
+}
+.section4_new_arrival i:hover{
+    opacity:0.5;
+}
+.section1_paynow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;   
+    gap: 40px; 
+    padding-top: 70px;
+    
+}
+.section1_paynow .left_screen_portion{
+    width:50% ;
+    
+   
+   
+   
+}
+.section1_paynow .right_portion_screen {
+    margin-top: 15px;
+    width: 29%;
+    padding-left:  0px;
+
+   
+}
+
+.section1_paynow .sample_images_paynow{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.section1_paynow .sample_images_paynow .main_img{
+    
+    width: 100%;
+   
+}
+.section1_paynow .sample_images_paynow img{
+    width:70%;
+    margin-left: 100px;
+    
+}
+
+.section1_paynow .right_portion_screen .heading_descripton{
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+.dress_Description_paynow p{
+    width:70%;
+    margin-bottom: 10px;
+}
+
+.section1_paynow .right_portion_screen .price_paynow{
+    margin-bottom: 3px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ .dress_Description_paynow{
+            text-align: justify;
+            padding: 10px 0px;
+}
+.star_paynow{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+
+.price_stars .price_paynow{
+    font-size: 23px;
+    font-weight: bolder;
+}
+.quatity,.size_description .size_heading,.color_description .color_heading{
+    font-weight: bolder;
+    margin-bottom: 10px ;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.quantity_number {
+    display: flex;
+    gap: 20px;
+
+}
+.quantity_number .minus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 100%;
+    font-size: 15px;
+    width :15px;
+    padding-left: 5px;
+    font-weight: bolder;
+    height: 18px;
+}
+.quantity_number .plus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 100%;
+    font-size: 15px;
+    width :15px;
+    padding-left: 3px;
+    font-weight: bolder;
+    height: 18px;
+}
+
+.sizes, .color{
+    display: flex;
+    gap: 50px;
+
+}
+.sizes p{
+    border: black 1px solid;
+    text-align: center;
+    width: 50px;
+    height:30px;
+    padding-top: 2px;
+
+}
+.sizes .selected, .color .selected {
+    border: black 3px solid;
+}
+.color p{
+    border: black 1px solid;
+    text-align: center;
+    width: 90px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.paynow_submit_btn button{
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.paynow_submit_btn button {
+    border: 1px black solid;
+}
+.paynow_submit_btn button a{
+    padding: 12px 23px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.section1_login{
+    background-image: url(Rectangle\ 108.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 45px;
+}
+.section1_login p{
+    width: 250px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.section1_login .x{
+    width: 50px;
+    height: 40px;
+    
+}
+.section1_login .x i{
+    font-size: 25px;
+    float:right;
+}
+.section2_login{
+    margin: 10px 30px;
+}
+.section2_login .login{
+    text-align: center;
+   padding-bottom: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+.section2_login .please_login{
+    padding-bottom: 20px;
+}
+.section2_login form i{
+  position: relative;
+ 
+}
+.section2_login form input{
+    width: 80%;
+    border: none;
+    outline: none;
+    padding-bottom: 5px;
+}
+.section2_login form hr{
+    margin-bottom: 30px;
+    background-color: black;
+    color: black;
+    font-weight: bolder;
+    height: 2px;
+}
+.section2_login form  .secondline_login{
+    margin-bottom: 0px;
+}
+.section2_login form input::placeholder{
+    padding-left: 2px;
+}
+.section2_login form .forget_password{
+   float: right;
+}
+.section2_login form .forget_password a {
+   float: right;
+   text-decoration: none;
+   color: black;
+}
+.section3_login{
+    width: 100%;
+    margin: 40px auto;
+    margin-bottom: 0px; 
+}
+.section3_login  button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    width: 100%; 
+   
+}
+.section3_login  button:hover, .section3_login .spans_login a:hover, .section2_contact_info form button:hover, .last_section_ship_info button:hover
+{
+    opacity: 0.80;
+    cursor: pointer;
+    transition: ease-in-out 0.5ms;
+}
+.section3_login .spans_login{
+    display: flex;
+    justify-content: space-between;
+}
+.section3_login .spans_login a{
+    color: black;
+    text-decoration: none;
+}
+.section1_contact_info{
+    padding: 0px 30px;
+    padding-top: 20px;
+}
+.section1_contact_info .nav_contact_info{
+    display: flex;
+    justify-content: space-between;
+}
+.section1_contact_info hr{
+    margin: 15px auto;
+    height: 1.5px;
+    background-color: black;
+    border: none;
+    
+}
+.section1_contact_info P{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.section2_contact_info{
+    padding: 0px 30px;  
+}
+.section2_contact_info  form input{
+    width: 100%;
+    padding: 10px;
+    border: 1.5px solid black;
+    margin-top:13px ;  
+    outline: none;
+}
+.section2_contact_info  form input::placeholder ,.section1_contact form input::placeholder,.section1_contact form textarea::placeholder{
+    
+    color: black;
+    font-weight: bolder;
+}
+.section2_contact_info form .name{
+    display: flex;
+    gap: 20px;
+}
+.section2_contact_info form span input {
+    width: 20px;
+}
+.section2_contact_info form button{
+    float: right;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: black;
+    border: none;
+}
+.section2_contact_info form button a{
+    color: white;
+    text-decoration: none;
+}
+.shipping_info_card{
+   padding: 10px;
+   box-shadow: 1px 1px 5px black; 
+   margin-top: 10px;
+}
+.shipping_info_card .shipping_address p{
+    margin: 20px;
+}
+.shipping_info_card button{
+    display: flex;
+    margin: 10px auto;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 1.5px solid black;
+}
+.shipping_info_card button a{
+    margin: 10px auto;
+    color: black;
+    text-decoration: none;
+}
+.last_section_ship_info{
+    margin-top: 20px;
+    padding: 15px;
+}
+.last_section_ship_info p{
+    margin-bottom: 10px;
+}
+.last_section_ship_info .price_details, .shipping_insurance, .total_payable{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.last_section_ship_info hr{
+    margin: 10px 0px;
+    background-color: black;
+    height: 1px;
+    border: none;
+}
+.last_section_ship_info button{
+    padding: 20px;
+    float: right;
+    margin-top: 40px;
+    background-color: black;
+}
+.last_section_ship_info button a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.section2_about{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+}
+.section2_about .card1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.section2_about .card2{ 
+    display: flex;
+    flex-direction: row-reverse;
+}
+.section2_about .card1 p{
+    width: 30%;
+    margin-top: 40px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.section2_about .card1 p{
+
+}
+.section2_about .card1 .frame1_about{
+    width: 50%;
+}
+.section2_about .card1 .frame2_about{
+    width: 50%;
+    float: right;
+    z-index: 10;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
+.section2_about img{
+    width: 100%;
+}
+.section1_contact form{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    margin: 0px auto;
+    width: 50%;
+    
+}
+.section1_contact form input,.section1_contact form button, .section1_contact form textarea {
+    padding: 20px 5px;
+    margin: 20px 0px;
+    border: 1px solid black;
+    
+}
+.section1_contact form button{
+    width: 200px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    float: right;
+    font-weight: bolder;
+    
+}
+
+.section1_contact form button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.5s
+   
+    
+}
+.section1_contact form textarea::placeholder{
+    font-family: Calibri;
+    font-size: 16px;
+}
+.address_email {
+    padding: 20px;
+}
+.address_email .home_address{
+    width: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.address_email .splash_email_address{
+    font-size: 13px;
+    padding: 10px 0px;
+}
+
+
+
+
+@media (max-width:750px) {
+
+    .section1{
+     
+    }
+    .section1 nav{
+        padding: 0;
+        min-height: 90vh;
+        background-color: #ffffff; 
+        position: relative;
+        z-index: 1000;
+        position: fixed;
+        display: none;
+    }
+    .section1 .nav-list{
+        width: 100%;
+        min-height: 80vh; 
+        position: absolute;  
+        z-index: 1000;
+    }
+   .search-cart  {
+        color: rgb(0, 0, 0);
+        background-color: pink;
+        position: absolute;
+        bottom: 30px;
+        left: 0px;
+        width: 100%;
+        height: 20px;
+        display: flex;
+        gap: 20%;
+
+    }
+    .section1 .nav-list ul{
+        display: flex;
+        flex-direction: column;
+        min-height: 80vh;
+        color: black;
+        width: 100%;
+        justify-content: space-evenly;
+   
+    }
+    .section1 .nav-list ul li{
+       padding-left: 15px;
+        width: 100%;
+        font-size: 30px;  
+    }
+    .section1 .nav-list ul li  a{
+        color: black;
+        font-size: 30px;
+     
+    }
+   
+    .frame1{
+  width: 100%;
+  padding:  20px 40px;
+    }
+    .logo_harmbugger{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px 20px;
+        position: fixed;
+        z-index: 1000;
+        background-color: grey;
+        height: 60px;
+        
+        
+    }
+    .black_logo_harmbugger{
+        background-color: white;
+    }
+
+    
+    .logo_harmbugger .harmbugger{
+        width: 40px;
+        height: 35px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;}
+    .logo_harmbugger .harmbugger:hover{
+        cursor: pointer;
+    }
+    .logo_harmbugger .harmbugger .bar {
+        width: 40px;
+        background-color: rgb(255, 255, 255);
+        height: 2px;
+    }
+    .logo_harmbugger .harmbugger .bar_black{
+         width: 40px;
+
+        background-color: rgb(0, 0, 0);
+        height: 2px;
+    }
+    .section1 .start-shopping{
+       
+        top: 30%;
+    }
+    .shop_nav{
+        display: none;
+        
+    }
+
+    .other_section{
+ padding-top:80px ;    }
+    .section1_blog{
+       top: 0px;
+    }
+    .section1_blog{
+        padding: 70px; 
+    }
+    .section2_about .card1{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0px auto;
+        box-shadow:  5px 5px 10px 1px grey;
+        margin-bottom: 40px;
+        
+    }
+       .section2_about .card1 .frame1_about, .section2_about .card1 .frame2_about{
+        margin: 0px auto;
+        width: 100%;
+        
+       }
+       .section2_about .card1 p{
+        margin: 0px auto;
+        width: 100%;
+        padding-top: 0px;
+       }
+       .section2_about .card2 .frame2_about{
+        position: relative;
+        top: 0px;
+        right: 0px;
+
+       }
+        .section2_about .card1 .frame2_about img{
+           width: 100%;
+        }
+        .section2_about .card1 p{
+            margin: 0px 0px;
+            padding: 20px  15px;
+         }
+      
+      
+        .section3_about{
+            width: 100%;
+         
+        }
+        .section3_about .the_team{
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 4px auto;
+            gap: 10px;
+           
+        }
+        .section3_about .the_team img{
+          
+        }
+        .section1_contact form{
+            width: 100%;
+        }
+        .section1_paynow{
+    padding: 0px 20px;
+    
+        }
+        .back_cart_logo{
+            display: flex;
+            justify-content: space-between;
+            padding:  20px 10px;
+        }
+        .section1_paynow{
+    display: flex;
+    flex-direction: column;
+    
+}
+    .section1_paynow{
+    padding-top: 80px;
+ }
+       
+
+        .section1_paynow .circle_navigator{
+            display: flex;
+            
+            width: 100%;
+            height: 40px;
+            gap: 8px;
+            justify-content: center;
+            padding-top: 10px;
+            
+        }
+
+        .circle_navigator div{
+            height: 5px;
+            width: 5px;
+            background-color: rgb(136, 133, 133);
+            border-radius: 50%;
+        }
+
+        .circle_navigator div:hover{
+            cursor:pointer
+        }
+        .dress_Description_paynow p{
+            width: 100%;
+            text-align: justify;
+            padding: 10px 0px;
+        }
+        .star_paynow{
+            display: flex;
+            gap: 5px;
+        }
+        .star_paynow i .star_colored {
+            background-color: red;
+        }
+        .price_stars{
+            display: flex;
+            justify-content: space-between;
+        }
+        .price_stars .price_paynow{
+            font-size: 23px;
+            font-weight: bolder;
+        }
+        .quatity,.size_description .size_heading,.color_description .color_heading{
+            font-weight: bolder;
+            margin-bottom: 10px ;
+            margin-top: 10px;
+            text-transform: capitalize;
+        }
+        .quantity_number {
+            display: flex;
+            gap: 20px;
+        
+        }
+        .quantity_number .minus{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border-radius: 100%;
+            font-size: 15px;
+            width :15px;
+            padding-left: 5px;
+            font-weight: bolder;
+            height: 18px;
+        }
+        .quantity_number .plus{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border-radius: 100%;
+            font-size: 15px;
+            width :15px;
+            padding-left: 3px;
+            font-weight: bolder;
+            height: 18px;
+        }
+
+        .sizes, .color{
+            display: flex;
+            gap: 50px;
+
+        }
+        .sizes p{
+            border: black 1px solid;
+            text-align: center;
+            width: 50px;
+            height:30px;
+            padding-top: 2px;
+
+        }
+        .sizes .selected, .color .selected {
+            border: black 3px solid;
+        }
+        .color p{
+            border: black 1px solid;
+            text-align: center;
+            width: 90px;
+            height: 40px;
+            padding-top: 10px;
+        }
+        .section1_paynow .sample_images_paynow{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            width: 100%;
+            padding: 0px 120px;
+            justify-content: center; 
+        }
+     
+        .section1_paynow .paynow_submit_btn button a{
+            color: white;
+            text-decoration: none;
+        }
+        .section1_paynow .left_screen_portion{
+            
+            width: 100%;
+        }
+        .section1_paynow .right_portion_screen{
+            width: 100%;
+        }
+        .paynow_submit_btn {
+          position: relative;
+          right: 14%;
+            
+         }
+        .paynow_submit_btn button{
+            
+            width: 100px;
+            height: 40px;
+            background-color: rgb(0, 0, 0);
+            margin-top: 40px;
+             border: 1px black solid;
+            border-radius: 40px;
+            width: 400px;
+            
+            
+            
+        }
+        
+        .paynow_submit_btn button a{
+            padding: 12px 174px;
+            color: white;
+            text-decoration: none;
+            background-color: rgb(0, 0, 0);
+            border-radius: 40px;
+        }
+
+    }
