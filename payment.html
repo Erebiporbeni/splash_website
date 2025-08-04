@@ -5,45 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 <body>
-     <!-- <section class="section1_contact_info">
-        <div class="nav_contact_info">
-            <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <p>SHIPPING INFORMATION</p>
-    </section>
-    <section class="shipping_info_card">
-        <p class="shipping_address">Delivery Address</p>
-        <p>xxxxxx</p>
-        <p>xxxx</p>
-        <p>xxxxxxxxx</p>
-        <p>xxx</p>
-        <button><a href="">Change or Add Address</a></button>
-
-    </section>
-    <section class="last_section_ship_info">
-        <p class="delivery_Estimates">Delivery Estimates</p>
-        <p>10-15 Working days</p>
-        <div class="price_details">
-            <p>Price Details:</p>
-            <p>xxxxx</p>
-        </div>
-        <div class="shipping_insurance">
-            <p>Total Shipping & Insurance</p>
-            <p>xxx</p>
-        </div>
-        <hr>
-        <div class="total_payable">
-            <p>Total payable</p>
-            <p>xxxx</p>
-        </div>
-        <button><a href="">continue payment</a></button>
-    </section> -->
-   <nav class="shop_nav">
+      <nav class="shop_nav">
             <div class="navlist_black ">
                 <ul>
                     <li> SPLASH</li>
@@ -72,35 +36,84 @@
     <section class="section1_contact_info">
         <div class="information_shipping_payment">
             <p>
-                <a href="contact_info.html">information</a> > <strong><a href="shipping_info.html">shipping</a></strong> <strong> > </strong><a href="payment.html">payment</a> 
+                <a href="contact_info.html">information</a> > <a href="shipping_info.html">shipping</a> <strong> > <a href="payment.html">payment</a> </strong>
             </p>
-           
         </div>
-         
-        
-    </section>
-
-    <section class="section2_contact_info">
+         <section class="section2_contact_info">
         
         <form action="">
             
             
             
             <input type="text" name="contact" id="contact" placeholder="contact">
+            <span class="shipping_bill"><a href="">change</a></span>
             <input type="text" name="address" id="address" placeholder="Address">
-            <p class="shipping_method_head">  Shipping Method</p>
-            <input type="text" name="shipping_method" id="shipping_method" placeholder="10-15 working days">
-            <div class="shipping_bill">
-                $20000
+            <span class="shipping_bill"><a href="">change</a></span>
+
+            <input type="text" name="shipping_method" id="shipping_method" placeholder="Total">
+            <div class="total_bill">
+                $7020
             </div>
+            <p class="shipping_method_head">  Additional information</p>
+            <input type="text" name="coupon_code" id="coupon_code" placeholder="enter coupon code">
+           <p class="payment">payment</p>
+           <p>All transactions are secure and encrypted.</p>
+           <div class="credit_debit_cards_section">
+                <div class="credit_debit_cards">
+                    <div class="dot_inner_white"></div>
+                    <p>Credit/Debit cards</p>
+                </div>
+                <div class="cards">
+                    <img src="path3789.svg" alt="">
+                    <img src="Mastercard svg.svg" alt="">
+                    <img src="American Express - png 1.svg" alt="">
+                    
+                </div>
+           
+
+           </div>
+           <div class="grey_section">
+            <p>
+                pay with credit or debit card
+            </p>
+            <div class="card_expiration_cvv">
+                <div class="card_number">
+                    <label for="card_number">card number</label>
+                    <input type="text" name="card_number" id="card_number" placeholder="xxxx         xxxx          xxxx         xxxx" class="card_number_input"> 
+                </div>
+                <div class="expiration">
+                    <label for="expiration">Expiration</label>
+                    <input type="text" name="expiration" id="expiration" placeholder="MM/YY" class="expiration_input">
+                </div>
+                 <div class="CVV">
+                    <label for="expiration">CVV</label>
+                    <input type="text" name="cvv" id="cvv" placeholder="xxx" class="cvv_input">
+                </div>
+                 <div class="phone_number">
+                    <label for="expiration">phone number</label>
+                    <input type="text" name="phone_number_card" id="phone_number_card" placeholder="Enter phone number" class="phone_number_input">
+                </div>
+                
+            </div>
+            <span><input type="checkbox" class="checkboxinput">save this information for next time</span>
+           </div>
+            <div class="paypal_section">
+                <span>PayPal</span>
+                <img src="image 30.svg" alt="paypal_logo">
+            </div>
+
+
+
+
+
             <div class="submit_contact_info_btn2">
-                <button><a href="payment.html">Continue to Payment</a></button>
+                <button><a href="payment_confimation.html">Make Payment</a></button>
             </div>
         </form>
-
-
+        
+        
     </section>
-          <section class="section2">
+        <section class="section2">
         <div class="about-privacy-shops">
             <div class="about">
                 <p class="heading_name">About</p>

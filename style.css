@@ -653,6 +653,7 @@ margin-bottom: 10px;
     margin-top: 10px;
     text-transform: capitalize;
 }
+
 .quantity_number {
     display: flex;
     gap: 20px;
@@ -682,7 +683,20 @@ margin-bottom: 10px;
 .sizes, .color{
     display: flex;
     gap: 50px;
+   
 
+}
+.sizes button, .color button{
+    width: 70px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: black 1px solid;
+
+}
+.sizes button:active, .color button:active{
+    background-color: black;
+    color: white;
 }
 .sizes p{
     border: black 1px solid;
@@ -695,6 +709,7 @@ margin-bottom: 10px;
 .sizes .selected, .color .selected {
     border: black 3px solid;
 }
+
 .color p{
     border: black 1px solid;
     text-align: center;
@@ -702,9 +717,10 @@ margin-bottom: 10px;
     height: 40px;
     padding-top: 10px;
 }
-
-.paynow_submit_btn button{
-    float: right;
+.paynow_submit_btn{
+    text-align: right;
+}
+ .paynow_submit_btn button{
     width: 100px;
     height: 40px;
     background-color: rgb(0, 0, 0);
@@ -820,7 +836,7 @@ margin-bottom: 10px;
 }
 .section1_contact_info{
     padding: 0px 30px;
-    padding-top: 20px;
+    padding-top: 100px;
 }
 .section1_contact_info .nav_contact_info{
     display: flex;
@@ -833,25 +849,81 @@ margin-bottom: 10px;
     border: none;
     
 }
-.section1_contact_info P{
+.section1_contact_info .information_shipping_payment{
+   text-transform:capitalize ;
+   text-align: center;
+   word-spacing: 10px;
+   font-size: 20px;
+   margin-bottom: 40px;
+
+}
+.section1_contact_info .express_checkout{
+    font-size: 13px;
     text-align: center;
+}
+.section1_contact_info .paypal_paystack{
+    display: flex;
+    justify-content: center;
+   padding-left: 20px;
+   
+
+}
+.section1_contact_info .paypal_paystack img{
+    width: 20%;
+}
+
+.section1_contact_info .paypal_paystack .image1{
+    padding-bottom: 6px;
+    width: 17%;
+}
+.section1_contact_info .line_or_line{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 5px;
+  
+}
+.section1_contact_info .line_or_line .line_contact_info{
+    width: 300px;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 9px;
+}
+.section2_contact_info .shipping_address{
     font-weight: bolder;
-    margin-top: 20px;
+}
+
+
+.section1_contact_info .information_shipping_payment strong{
+    font-weight: 900;
+    
 }
 .section2_contact_info{
     padding: 0px 30px;  
+    width: 100%;
 }
-.section2_contact_info  form input{
+.section2_contact_info  form{
+    width: 50%;
+    margin: auto;
+    
+}
+
+.section2_contact_info  form input, .section2_contact_info  form select{
     width: 100%;
     padding: 10px;
     border: 1.5px solid black;
-    margin-top:13px ;  
+   margin-top: 13px;
     outline: none;
+    
 }
 .section2_contact_info  form input::placeholder ,.section1_contact form input::placeholder,.section1_contact form textarea::placeholder{
     
-    color: black;
-    font-weight: bolder;
+    color: rgb(170, 170, 170);
+    
+}
+.section2_contact_info  form select{
+    color: rgb(170, 170, 170);
+    
 }
 .section2_contact_info form .name{
     display: flex;
@@ -860,68 +932,124 @@ margin-bottom: 10px;
 .section2_contact_info form span input {
     width: 20px;
 }
-.section2_contact_info form button{
-    float: right;
-    margin-top: 50px;
-    padding: 20px;
+.submit_contact_info_btn,.submit_contact_info_btn2{
+    margin: 30px 0px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    text-align: right;
+}
+.section2_contact_info form button, .submit_contact_info_btn2 button{
+   position: relative;
+    width: 200px;
+    height: 50px;
     background-color: black;
     border: none;
 }
 .section2_contact_info form button a{
     color: white;
     text-decoration: none;
+    padding: 18px 38px;
 }
-.shipping_info_card{
-   padding: 10px;
-   box-shadow: 1px 1px 5px black; 
-   margin-top: 10px;
+.section2_contact_info form button a{
+     padding: 18px 36px;
 }
-.shipping_info_card .shipping_address p{
-    margin: 20px;
+
+.section2_contact_info .shipping_method_head{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
 }
-.shipping_info_card button{
+.section2_contact_info .shipping_bill{
+    width: 50px;
+    position: relative;
+    bottom: 28px;
+    left: 86%;
+    
+}
+.shipping_bill a{
+    color: black;
+}
+.credit_debit_cards_section{
+    border: 1px black solid;
     display: flex;
-    margin: 10px auto;
-    width: 100%;
-    height: 40px;
-    background-color: white;
-    border: 1.5px solid black;
+    gap: 30%;
+    padding-top: 10px;
 }
-.shipping_info_card button a{
-    margin: 10px auto;
+.credit_debit_cards_section .credit_debit_cards{
+    display: flex;
+     gap: 2px;
+}
+.credit_debit_cards_section .dot_inner_white{
+    width: 15PX;
+    height: 15px;
+    border: 4px solid black;
+    border-radius: 80%;
+    margin-left: 5px;
+    background-color: #dfdfdf;
+}
+form .grey_section{
+    background-color: rgb(225, 225, 225);
+    border: 1px black solid;
+
+}
+form .card_expiration_cvv{
+    display: flex;
+    flex-wrap: wrap;
+    gap :20px;
+    padding-left:  10px ;
+    padding-top: 10px;
+
+}
+
+.expiration {
+width: 100px;
+}
+.CVV{
+    width: 70px;
+}
+form .card_number  input, form .expiration input, form .CVV input ,form .phone_number input{
+    margin-top: 0px;
+    border: none;
+
+}
+form .card_number  input::placeholder, form .expiration input::placeholder, form .CVV input::placeholder ,form .phone_number input::placeholder{
+    text-align: center;
+}
+form .card_number  input::placeholder{
+    width: 100%;
+}
+form input.checkboxinput {
+    margin-top: 10px;
+    margin-bottom: 20px;
+   margin-left: 10px;  
+}
+form .paypal_section{
+    
+    border: 1px black solid;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+form .payment{
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.section2_contact_info .total_bill{
+     width: 50px;
+    position: relative;
+    bottom: 28px;
+    left: 10%;
+    font-weight: bolder;
+
+
+}
+
+.section1_contact_info .information_shipping_payment p a{
     color: black;
     text-decoration: none;
 }
-.last_section_ship_info{
-    margin-top: 20px;
-    padding: 15px;
-}
-.last_section_ship_info p{
-    margin-bottom: 10px;
-}
-.last_section_ship_info .price_details, .shipping_insurance, .total_payable{
-    display: flex;
-    justify-content: space-between;
-   
-}
-.last_section_ship_info hr{
-    margin: 10px 0px;
-    background-color: black;
-    height: 1px;
-    border: none;
-}
-.last_section_ship_info button{
-    padding: 20px;
-    float: right;
-    margin-top: 40px;
-    background-color: black;
-}
-.last_section_ship_info button a{
-    color: white;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-
 .section2_about{
     width: 100%;
     height: 100%;
@@ -1009,6 +1137,100 @@ margin-bottom: 10px;
     font-size: 13px;
     padding: 10px 0px;
 }
+.card_payment_confirm{
+    padding-top: 100PX;
+    margin: 0px AUTO;
+    width: 50%;
+    box-shadow: 2px 2px 2px 2px rgb(195, 195, 195);
+    margin-bottom: 100px;
+
+    }
+    .card_payment_confirm .images_payment_confirmation{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    }
+    .card_payment_confirm .images_payment_confirmation .uba_image{
+        width: 100px;
+        
+    }
+    .card_payment_confirm .images_payment_confirmation .uba_image img{
+    width: 100%;
+    }
+    .card_payment_confirm .first_paragraph{
+        padding: 10px 30px;
+    }
+    .card_payment_confirm .email_sms{
+        padding: 10px 30px;
+        display: flex;
+        gap: 20px;
+    }
+    .card_payment_confirm .resend_otp  {
+        padding: 20px 30px;
+        font-size: 10px;
+    }
+    .card_payment_confirm .transaction_details{
+       margin-top: 20px;
+       margin-bottom: 10px;
+        font-size: 20px;
+        padding-left: 30px;
+        font-weight: bold;
+   
+    }
+    .transaction_area{
+        padding-bottom: 30px;
+        margin: 0px 30px;
+        display: flex;
+        width: 95%;
+        gap:15PX;
+       
+    }
+    .transaction_area .left_half_otp_page{
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .transaction_area .right_half_otp_page{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .transaction_area .right_half_otp_page input{
+        height: 30px;
+        outline: none;
+        width: 70%;
+    }
+    .transaction_area .left_half_otp_page .enter_code{
+        margin-bottom: 12px;
+    }
+     .transaction_area .left_half_otp_page .go_back, .transaction_area .right_half_otp_page .submit{
+        height: 40PX;
+        margin-top: 35px;
+        border: 1px black solid;
+
+     }.transaction_area .left_half_otp_page .go_back{
+        background-color: white;
+        width: 80%;
+       
+     }
+     .transaction_area .left_half_otp_page .go_back a{
+        text-decoration: none;
+        color: black;
+        padding: 13px 33px;
+     }
+     .transaction_area .right_half_otp_page .submit{
+        width: 80%;
+        background-color: black;
+     }
+     .transaction_area .right_half_otp_page .submit a{
+         text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 13px 50px;
+     }
+     
+
+
 
 
 
@@ -1076,13 +1298,18 @@ margin-bottom: 10px;
         padding: 20px 20px;
         position: fixed;
         z-index: 1000;
-        background-color: grey;
+        background-color: rgb(255, 255, 255);
         height: 60px;
         
         
     }
     .black_logo_harmbugger{
-        background-color: white;
+        background-color: rgb(0, 0, 0);
+    }
+    .logo_harmbugger .logo_black{
+        color: black;
+        font-weight: bolder;
+        font-size: 25px;
     }
 
     
@@ -1097,7 +1324,7 @@ margin-bottom: 10px;
     }
     .logo_harmbugger .harmbugger .bar {
         width: 40px;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
         height: 2px;
     }
     .logo_harmbugger .harmbugger .bar_black{
@@ -1116,7 +1343,7 @@ margin-bottom: 10px;
     }
 
     .other_section{
- padding-top:80px ;    }
+    padding-top:80px ;    }
     .section1_blog{
        top: 0px;
     }
@@ -1169,14 +1396,12 @@ margin-bottom: 10px;
             gap: 10px;
            
         }
-        .section3_about .the_team img{
-          
-        }
+       
         .section1_contact form{
             width: 100%;
         }
         .section1_paynow{
-    padding: 0px 20px;
+        padding: 0px 20px;
     
         }
         .back_cart_logo{
@@ -1185,18 +1410,15 @@ margin-bottom: 10px;
             padding:  20px 10px;
         }
         .section1_paynow{
-    display: flex;
-    flex-direction: column;
-    
-}
-    .section1_paynow{
-    padding-top: 80px;
- }
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        gap: 0px;
+        }
        
 
         .section1_paynow .circle_navigator{
             display: flex;
-            
             width: 100%;
             height: 40px;
             gap: 8px;
@@ -1214,6 +1436,10 @@ margin-bottom: 10px;
 
         .circle_navigator div:hover{
             cursor:pointer
+        }
+        .heading_descripton{
+            margin-top: 2px;
+      
         }
         .dress_Description_paynow p{
             width: 100%;
@@ -1235,54 +1461,8 @@ margin-bottom: 10px;
             font-size: 23px;
             font-weight: bolder;
         }
-        .quatity,.size_description .size_heading,.color_description .color_heading{
-            font-weight: bolder;
-            margin-bottom: 10px ;
-            margin-top: 10px;
-            text-transform: capitalize;
-        }
-        .quantity_number {
-            display: flex;
-            gap: 20px;
-        
-        }
-        .quantity_number .minus{
-            background-color: rgb(0, 0, 0);
-            color: white;
-            border-radius: 100%;
-            font-size: 15px;
-            width :15px;
-            padding-left: 5px;
-            font-weight: bolder;
-            height: 18px;
-        }
-        .quantity_number .plus{
-            background-color: rgb(0, 0, 0);
-            color: white;
-            border-radius: 100%;
-            font-size: 15px;
-            width :15px;
-            padding-left: 3px;
-            font-weight: bolder;
-            height: 18px;
-        }
-
-        .sizes, .color{
-            display: flex;
-            gap: 50px;
-
-        }
-        .sizes p{
-            border: black 1px solid;
-            text-align: center;
-            width: 50px;
-            height:30px;
-            padding-top: 2px;
-
-        }
-        .sizes .selected, .color .selected {
-            border: black 3px solid;
-        }
+     
+ 
         .color p{
             border: black 1px solid;
             text-align: center;
@@ -1293,9 +1473,7 @@ margin-bottom: 10px;
         .section1_paynow .sample_images_paynow{
             display: flex;
             flex-direction: column;
-            gap: 50px;
-            width: 100%;
-            padding: 0px 120px;
+            width: 80%;
             justify-content: center; 
         }
      
@@ -1304,15 +1482,15 @@ margin-bottom: 10px;
             text-decoration: none;
         }
         .section1_paynow .left_screen_portion{
+            width: 90%;
+            margin: 0px auto;
             
-            width: 100%;
         }
         .section1_paynow .right_portion_screen{
             width: 100%;
         }
         .paynow_submit_btn {
-          position: relative;
-          right: 14%;
+          text-align: center;
             
          }
         .paynow_submit_btn button{
@@ -1336,5 +1514,16 @@ margin-bottom: 10px;
             background-color: rgb(0, 0, 0);
             border-radius: 40px;
         }
+        .section2_contact_info  form{
+        width: 100%;
+        margin: auto;
+        
+    }
+    .card_payment_confirm{
+   
+        width: 80%;}
+
+    
+
 
     }
