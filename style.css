@@ -233,7 +233,7 @@ nav .search-cart i{
     margin-bottom: 5px;
     padding-left: 50px;
 }
-/* .background{
+.background{
     background-image: url(Rectangle\ 56.svg);
     background-position: 100%;
     background-repeat: no-repeat;
@@ -296,7 +296,7 @@ nav .search-cart i{
     background-size: 100%;
     height: 260px;  
     padding: 50px 10%;
-} */
+} 
 .about-privacy-shops{
     display: flex;
     gap: 10%;
