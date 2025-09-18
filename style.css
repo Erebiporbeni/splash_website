@@ -4,14 +4,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* .section1{
+.section1{
     background-image: url(Rectangle\ 88.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
     color: white;
-    height: 370px;   
-} */
+    height: 370px; 
+    
+} 
 .logo_harmbugger{
     display: none;
 }
@@ -330,7 +331,7 @@ nav .search-cart i{
 footer{
     display: flex;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 0px 10px;
     }
 footer .splash{
     display: flex; 
@@ -346,7 +347,7 @@ footer .splash .splash-brand{
 }
 footer .logo{
     display: flex;
-    gap: 40px;
+    gap: 20px;
     margin-top: 5px;
 }
 .section1_blog{
