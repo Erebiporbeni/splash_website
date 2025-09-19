@@ -237,7 +237,7 @@ nav .search-cart i{
     background-image: url(Rectangle\ 56.svg);
     background-position: 100%;
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: cover; 
     padding: 55px 10%;
     margin-bottom: 30px;
     width: 100%;
@@ -293,16 +293,17 @@ nav .search-cart i{
     background-image:url(Rectangle\ 87.svg) ;
     background-position: 100%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 260px;  
-    padding: 50px 10%;
+    padding: 10px 10%;
+    
 } 
 .about-privacy-shops{
     display: flex;
     gap: 10%;
 }
 .about, .privacy, .shops{
-    padding: 20px;
+    padding: 10px;
 }
 .heading_name {
     font-size: larger;
@@ -1373,19 +1374,26 @@ form .payment{
     padding:30px ;
    }
     .vertical_nav_black button:hover{
-        opacity: 0.5;
-        cursor: pointer;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+    .vertical_nav_black.open{
+         right: -400px;
+         background-color: black;
     }
 
-   .vertical_nav_black{
-    background-color: rgb(0, 0, 0);
-    z-index: 2000;
-    position: absolute;
-    right: 0px;
-    width: 400px;
-    min-height:70vh;
-    
-   }
+    .vertical_nav_black{
+        background-color: rgb(0, 0, 0);
+        z-index: 4000;
+        position: absolute;
+        right: 0px;
+        width: 400px;
+        min-height:70vh;
+        display: block;
+    }
+   
+
+
     .vertical_nav_black ul{
         display: flex;
         flex-direction: column;
@@ -1393,7 +1401,7 @@ form .payment{
         list-style: none;
         padding-bottom: 80px;
 
-       
+        
       }
     .vertical_nav_black ul li{
     margin: 0px auto;
